@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img src="./images/logo.png" alt="ICECREAM" class="header__image" />
+        <!-- <svg class="header__burger" width="14" height="14">
+          <use href="./images/symbol-defs.svg#icon-Burger"></use>
+          <use href="./images/symbol-defs.svg#icon-close"></use>
+        </svg> -->
+
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#home" class="header__link header__link--active">Home </a>
+          </li>
+          <li class="header__item">
+            <a href="#product" class="header__link">Our products </a>
+          </li>
+          <li class="header__item">
+            <a href="#made" class="header__link">How it’s made? </a>
+          </li>
+          <li class="header__item">
+            <a href="#location" class="header__link">Location</a>
+          </li>
+          <li class="header__item">
+            <a href="#contact" class="header__link">Contact </a>
+          </li>
+        </ul>
+        <button class="header__button">Buy now</button>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero__thumb">
+            <h1 class="hero__title">
+              ICE CREAM MADE WITH <span class="hero__title--span" >PASSION</span>
+            </h1>
+            <button class="hero__button">Products</button>
+            <button class="hero__button">How it’s made?</button>
+          </div>
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et
+          </p>
+          <ul class="hero__list">
+            <li class="hero__item">
+              <div class="hero__box">
+                <p class="hero__number">16</p>
+                <p class="hero__type">cafes</p>
+              </div>
+              <span class="hero__elipse"></span>
+            </li>
+            <li class="hero__item">
+              <div class="hero__box">
+                <p class="hero__number">23</p>
+                <span class="hero__elipse"></span>
+              </div>
+              <p class="hero__type">food trucks</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="products" id="product">
+        <div class="container">
+          <h2 class="products__title">
+            100% NATURAL <span class="products__accent">PRODUCTS</span>
+          </h2>
+          <ul class="article__list">
+            <li class="article__item">
+              <a href="#" class="article__link">
+                <article class="article">
+                  <img
+                    src="./images/cream.png"
+                    alt="ice cream"
+                    class="article__image"
+                  />
+                  <h1 class="article__title">ICE CREAM</h1>
+                  <img src="./images/elipse.png" alt="#" />
+                  <p class="article__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et
+                  </p>
+                </article>
+              </a>
+            </li>
+            <li class="article__item">
+              <a href="#" class="article__link">
+                <article class="article">
+                  <img
+                    src="./images/coffee.png"
+                    alt="ice coffee"
+                    class="article__image"
+                  />
+                  <h1 class="article__title">ICE CREAM</h1>
+                  <img src="./images/elipse.png" alt="#" />
+                  <p class="article__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et
+                  </p>
+                </article>
+              </a>
+            </li>
+            <li class="article__item">
+              <a href="#" class="article__link">
+                <article class="article">
+                  <img
+                    src="./images/milkshakes.png"
+                    alt="milkshakes"
+                    class="article__image"
+                  />
+                  <h1 class="article__title">ICE CREAM</h1>
+                  <img src="./images/elipse.png" alt="#" />
+                  <p class="article__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et
+                  </p>
+                </article>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="howMade" id="made">
+        <div class="container">
+          <h2 class="howMade__title">
+            TRADITION AND LOVE <br /><span class="howMade__accent"
+              >HOW IT'S MADE?</span
+            >
+          </h2>
+          <div class="howMade__thumb">
+            <img
+              src="./images/biomilk.png"
+              alt="bio eco milk"
+              class="howMade__milk"
+            />
+            <div class="howMade__box">
+              <h3 class="box__title">
+                Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel
+                justo cursus, faucibus lorem eget, egestas eros. Maecenas
+                eleifend erat at justo fringilla.
+              </h3>
+              <p class="box__text">
+                Curabitur lacinia enim at ex blandit, vel pellentesque odio
+                elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum
+                euismod nisl suscipit ligula volutpat, a feugiat urna maximus.
+                Cras massa nibh, tincidunt.
+              </p>
+              <p class="box__signature">
+                Aliquam erat volutpat. Aenean accumsan.
+              </p>
+              <button type="submit" class="box__button">Read more</button>
+            </div>
+          </div>
+          <ul class="statistics">
+            <li class="statistics__item">
+              <img src="./images/icon1.png" alt="" class="statistics__image" />
+              <h3 class="statistics__title">721</h3>
+              <p class="statistics__text">
+                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+              </p>
+            </li>
+            <li class="statistics__item">
+              <img src="./images/icon2.png" alt="" class="statistics__image" />
+              <h3 class="statistics__title">16kg</h3>
+              <p class="statistics__text">
+                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+              </p>
+            </li>
+            <li class="statistics__item">
+              <img src="./images/icon3.png" alt="" class="statistics__image" />
+              <h3 class="statistics__title">84</h3>
+              <p class="statistics__text">
+                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+              </p>
+            </li>
+          </ul>
+          <!-- <img src="./images/gallery.png" alt=""> -->
+        </div>
+      </section>
+      <section class="comments">
+        <div class="container">
+          <div class="comments__thumb">
+            <img src="./images/oksana.png" alt="" class="comments__img" />
+            <p class="comments__text">
+              <span class="comments__part"
+                >Nullam viverra consectetuer. Quisque cursus et, porttitor
+                risus. Aliquam sem. In hendrerit</span
+              >
+              <span class="comments__part"
+                >nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh
+                vel risus.</span
+              >
+            </p>
+            <img
+              src="./images/Group 8.png"
+              alt=""
+              class="comments__separator"
+            />
+            <p class="comments__city">Emily, Los Angeles</p>
+            <ul class="social">
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <svg class="social__icon" width="12" height="12">
+                    <use href="./images/symbol-defs.svg#icon-home"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <span class="social__elipse"></span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <span class="social__elipse"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="locations" id="location">
+        <div class="container">
+          <ul class="locations__list">
+            <li class="locations__item">
+              <h2 class="locations__title">CAFE</h2>
+              <h3 class="locations__city">Chicago</h3>
+              <p class="locations__text">
+                Fusce ut velit laoreet, tempus arcu molestie vulputate
+              </p>
+              <h3 class="locations__day">Monday - Friday</h3>
+              <p class="locations__time locations__time--first">
+                06:00 AM - 10:00 PM
+              </p>
+
+              <h3 class="locations__day">Saturday - Sunday</h3>
+              <p class="locations__time locations__time--second">
+                08:00 AM - 16:00 PM
+              </p>
+
+              <p class="locations__tel">+61(0) 383 766 284</p>
+              <p class="locations__mail">noreply@envato.com</p>
+            </li>
+            <li class="locations__item">
+              <h2 class="locations__title locations__title--green">
+                FOOD TRUCK
+              </h2>
+              <h3 class="locations__city">Los Angeles</h3>
+              <p class="locations__text">
+                Fusce ut velit laoreet, tempus arcu molestie vulputate
+              </p>
+              <h3 class="locations__day">Monday - Friday</h3>
+              <p class="locations__time locations__time--first">
+                06:00 AM - 10:00 PM
+              </p>
+
+              <h3 class="locations__day">Saturday - Sunday</h3>
+              <p class="locations__time locations__time--second">
+                08:00 AM - 16:00 PM
+              </p>
+
+              <p class="locations__tel">+61(0) 383 766 284</p>
+              <p class="locations__mail">noreply@envato.com</p>
+            </li>
+            <li class="locations__item">
+              <h2 class="locations__title">CAFE</h2>
+              <h3 class="locations__city">New York</h3>
+              <p class="locations__text">
+                Fusce ut velit laoreet, tempus arcu molestie vulputate
+              </p>
+              <h3 class="locations__day">Monday - Friday</h3>
+              <p class="locations__time locations__time--first">
+                06:00 AM - 10:00 PM
+              </p>
+
+              <h3 class="locations__day">Saturday - Sunday</h3>
+              <p class="locations__time locations__time--second">
+                08:00 AM - 16:00 PM
+              </p>
+
+              <p class="locations__tel">+61(0) 383 766 284</p>
+              <p class="locations__mail">noreply@envato.com</p>
+            </li>
+          </ul>
+          <button type="submit" class="locations__button">Our Locations</button>
+          <button type="submit" class="locations__button">Franchise</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contact">
+      <div class="container">
+        <h2 class="footer__title">
+          HOMEMADE ICE CREAM MADE <br> <span class="footer__accent">
+            WITH PASSION</span
+          >
+        </h2>
+        <div class="footer__box">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="">
+                <svg class="footer__image"> 
+                  <use href="./images/symbol-defs.svg#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="">
+                <svg class="footer__image">
+                  <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a href="">
+                <svg class="footer__image">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="footer__contact">Feel free to contact</p>
+          <a href="#" class="footer__contact footer__contact--tel"
+            >+61 (0) 383 766 284</a
+          >
+        </div>
+      </div>
+      <p class="footer__unicode">&#xa9 2019 - IceCream. All Rights Reserved. </p>
+    </footer>
+  </body>
+</html>
